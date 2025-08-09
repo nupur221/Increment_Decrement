@@ -29,7 +29,7 @@ function updateDisplay() {
 if (IncrementButton) {
     IncrementButton.addEventListener("click", () => {
         if (number < mxn) {
-            number += 1;
+            number += 2;
             if (number > mxn) {
                 number = mxn;
             }
